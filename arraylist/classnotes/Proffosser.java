@@ -1,0 +1,26 @@
+package com.arraylist.classnotes;
+
+public class Proffosser
+{
+	private String name;
+	private String specialization;
+	public Proffosser(String name, String specialization) {
+		super();
+		this.name = name;
+		this.specialization = specialization;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getSpecialization() {
+		return specialization;
+	}
+	public void setSpecialization(String specialization) {
+		this.specialization = specialization;
+	}
+	
+
+}
